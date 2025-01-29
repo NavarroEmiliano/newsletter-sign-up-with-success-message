@@ -14,12 +14,12 @@
 <body>
 
   <!-- Sign-up form start -->
-  <article>
+  <article class="form-container">
     <figure>
       <img src="assets/images/illustration-sign-up-mobile.svg" alt="ilustration sign up">
     </figure>
 
-    <div class="sign-up-content">
+    <div class="form-content">
       <div class="text-content">
         <h1 class="form-title">
           Stay updated!
@@ -30,19 +30,19 @@
         </p>
 
         <div class="checks">
-          <div>
+          <div class="list-item">
             <img src="assets/images/icon-list.svg" alt="list icon">
             <p>
               Product discovery and building what matters
             </p>
           </div>
-          <div>
+          <div class="list-item">
             <img src="assets/images/icon-list.svg" alt="list icon">
             <p>
               Measuring to ensure updates are a success
             </p>
           </div>
-          <div>
+          <div class="list-item">
             <img src="assets/images/icon-list.svg" alt="list icon">
             <p>
               And much more!
@@ -54,15 +54,17 @@
       </div>
       <form>
 
-        <div>
-          <label for="email">
-            Email address
-          </label>
-          <p>Error message</p>
+        <div class="input-container">
+          <div class="label-container">
+            <label for="email">
+              Email address
+            </label>
+            <p>Error message</p>
+          </div>
+          <input type="email" name="email" id="email" placeholder="email@company.com">
         </div>
 
-        <input type="email" name="email" id="email" placeholder="email@company.com">
-        <button type="submit">
+        <button class="btn" type="submit">
           Subscribe to monthly newsletter
         </button>
 
@@ -76,13 +78,22 @@
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
+  <article class="success-popup">
+    <img src="assets/images/icon-success.svg" alt="success icon">
+    <h1 class="form-title">
+      Thanks for subscribing!
+    </h1>
 
-  Thanks for subscribing!
+    <p class="confirmation-message">
+      A confirmation email has been sent to ash@loremcompany.com.
+      Please open it and click the button inside to confirm your subscription.
+    </p>
 
-  A confirmation email has been sent to ash@loremcompany.com.
-  Please open it and click the button inside to confirm your subscription.
+    <button class="btn dismiss-btn">
+      Dismiss message
+    </button>
+  </article>
 
-  Dismiss message
 
   <!-- Success message end -->
 
