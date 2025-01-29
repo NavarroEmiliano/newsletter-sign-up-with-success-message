@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Newsletter sign-up form with success message</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
   <!-- Sign-up form start -->
+  <article>
+    <figure>
+      <img src="assets/images/illustration-sign-up-mobile.svg" alt="ilustration sign up">
+    </figure>
 
-  Stay updated!
+    <div class="sign-up-content">
+      <div class="text-content">
+        <h1 class="form-title">
+          Stay updated!
+        </h1>
 
-  Join 60,000+ product managers receiving monthly updates on:
+        <p class="form-subtitle">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+        <div class="checks">
+          <div>
+            <img src="assets/images/icon-list.svg" alt="list icon">
+            <p>
+              Product discovery and building what matters
+            </p>
+          </div>
+          <div>
+            <img src="assets/images/icon-list.svg" alt="list icon">
+            <p>
+              Measuring to ensure updates are a success
+            </p>
+          </div>
+          <div>
+            <img src="assets/images/icon-list.svg" alt="list icon">
+            <p>
+              And much more!
+            </p>
+          </div>
 
-  Email address
-  email@company.com
+        </div>
 
-  Subscribe to monthly newsletter
+      </div>
+      <form>
+
+        <div>
+          <label for="email">
+            Email address
+          </label>
+          <p>Error message</p>
+        </div>
+
+        <input type="email" name="email" id="email" placeholder="email@company.com">
+        <button type="submit">
+          Subscribe to monthly newsletter
+        </button>
+
+      </form>
+
+    </div>
+
+  </article>
+
 
   <!-- Sign-up form end -->
 
@@ -37,16 +79,13 @@
 
   Thanks for subscribing!
 
-  A confirmation email has been sent to ash@loremcompany.com. 
+  A confirmation email has been sent to ash@loremcompany.com.
   Please open it and click the button inside to confirm your subscription.
 
   Dismiss message
 
   <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
+
 </html>
