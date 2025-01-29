@@ -35,7 +35,8 @@ body {
     flex-direction: column;
     max-inline-size: 428px;
     background-color: var(--white);
-    min-block-size: 100vh;
+    justify-content: space-between;
+    block-size: 100vh;
 }
 
 
