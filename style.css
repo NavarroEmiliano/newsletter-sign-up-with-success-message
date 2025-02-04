@@ -183,7 +183,7 @@ body {
         max-inline-size: 928px;
         min-block-size: initial;
         max-block-size: 641px;
-        padding-inline: 2rem;
+        padding: 1.5rem;
         gap: 4rem;
         border-radius: 2.25rem ;
     }
@@ -194,6 +194,7 @@ body {
 
     .form-content {
         align-self: center;
+        padding-inline: 2rem;
     }
 
     .form-content .form-title {
