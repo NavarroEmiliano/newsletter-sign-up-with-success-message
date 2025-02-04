@@ -54,16 +54,16 @@
         </div>
 
       </div>
-      <form>
+      <form class="form" novalidate>
 
         <div class="input-container">
           <div class="label-container">
             <label for="email">
               Email address
             </label>
-            <p>Error message</p>
+            <p class="email-error-message"></p>
           </div>
-          <input type="email" name="email" id="email" placeholder="email@company.com">
+          <input class="email-input" type="email" name="email" id="email" placeholder="email@company.com">
         </div>
 
         <button class="btn" type="submit">
@@ -87,7 +87,7 @@
     </h1>
 
     <p class="confirmation-message">
-      A confirmation email has been sent to <strong>ash@loremcompany.com</strong>.
+      A confirmation email has been sent to <strong class="confirmation-message-email"></strong>.
       Please open it and click the button inside to confirm your subscription.
     </p>
 
