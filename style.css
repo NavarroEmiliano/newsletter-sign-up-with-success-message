@@ -183,7 +183,7 @@ body {
         max-inline-size: 928px;
         min-block-size: initial;
         max-block-size: 641px;
-        padding: 1.5rem;
+        padding-inline: 2rem;
         gap: 4rem;
         border-radius: 2.25rem ;
     }
