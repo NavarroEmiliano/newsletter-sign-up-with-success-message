@@ -196,6 +196,10 @@ body {
         align-self: center;
     }
 
+    .form-content .form-title {
+        font-size: 3.5rem;
+    }
+
 
     .success-popup {
         min-block-size: initial;
