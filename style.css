@@ -105,6 +105,10 @@ body {
     cursor: pointer;
 }
 
+.email-input:focus {
+    outline: 1px solid var(--dark-slate-grey);
+}
+
 .input-error {
     outline: 1px solid var(--tomato);
     color: var(--tomato);
@@ -131,13 +135,18 @@ body {
     font-weight: 700;
     font-size: 0.9rem;
     cursor: pointer;
+    transition: all 50ms ease-out;
+    
 }
 
-.btn:active {
+.btn:hover {
     background: var(--tomato);
     box-shadow:  0px 28px 54px -20px var(--dark-slate-grey);
 }
 
+.btn:active { 
+    transform: scale(0.98);
+}
 
 
 .success-popup {

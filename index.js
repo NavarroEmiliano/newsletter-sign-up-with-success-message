@@ -8,8 +8,15 @@ const successPopUpElement = d.querySelector(".success-popup");
 const confirmationEmailElement = d.querySelector(".confirmation-message-email");
 const dismissBtnElement = d.querySelector(".dismiss-btn");
 
-if (form && emailInputElement && emailErrorMessageElement && formContainerElement && successPopUpElement && confirmationEmailElement && dismissBtnElement) {
-
+if (
+  form &&
+  emailInputElement &&
+  emailErrorMessageElement &&
+  formContainerElement &&
+  successPopUpElement &&
+  confirmationEmailElement &&
+  dismissBtnElement
+) {
   const emailValidator = (email) => {
     if (!email) return "Email is required";
 
@@ -33,10 +40,18 @@ if (form && emailInputElement && emailErrorMessageElement && formContainerElemen
 
     if (emailErrorMessage) {
       showError(emailErrorMessage);
+      removeError()
       return;
     }
 
     showSuccess(email);
+  };
+
+  const removeError = () => {
+    setTimeout(() => {
+      emailInputElement.classList.remove("input-error");
+      emailErrorMessageElement.innerText = "";
+    }, 3000);
   };
 
   const showError = (message) => {
