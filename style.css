@@ -140,7 +140,7 @@ body {
 
 
 .success-popup {
-    max-inline-size: 504px;
+    inline-size: 100%;
     background-color: var(--white);
     padding-inline: 1.5rem;
     min-block-size: 100vh;
@@ -204,6 +204,7 @@ body {
 
 
     .success-popup {
+        max-inline-size: 504px;
         min-block-size: initial;
         block-size: 520px;
         border-radius: 2.25rem;
