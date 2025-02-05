@@ -3,7 +3,7 @@
 :root {
     --tomato: #ff6155;
     --dark-slate-grey: #242742;
-    --charcoal-grey: hsl(235, 18%, 26%);
+    --charcoal-grey: #36384D;
     --grey: rgb(146, 148, 160);
     --white: hsl(0, 0%, 100%);
 
@@ -26,7 +26,7 @@ body {
     display: grid;
     place-items: center;
     min-block-size: 100vh;
-    background-color: var(--dark-slate-grey);
+    background-color: var(--charcoal-grey);
     font-family: 'Roboto', serif;
 }
 
