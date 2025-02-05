@@ -195,7 +195,8 @@ body {
 
     .form-content {
         align-self: center;
-        padding-inline: 2.5rem;
+        padding-inline: 0;
+        margin-inline-start: 2.5rem;
     }
 
     .form-content .form-title {
