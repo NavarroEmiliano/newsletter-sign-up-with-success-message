@@ -128,7 +128,7 @@ body {
     background-color: var(--dark-slate-grey);
     color: white;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
 }
 
