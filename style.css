@@ -37,6 +37,7 @@ body {
     background-color: var(--white);
     justify-content: space-between;
     min-block-size: 100vh;
+    box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.119);
 }
 
 
@@ -147,6 +148,8 @@ body {
     display: none;
     flex-direction: column;
     padding-block: 2.5rem;
+    box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.119);
+
 }
 
 .success-popup img {
