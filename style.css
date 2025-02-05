@@ -58,13 +58,13 @@ body {
 }
 
 .form-title {
-    padding-block-end: 1.5rem;
+    padding-block-end: 1.75rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 .text-content .form-subtitle {
-    padding-block-end: 1.5rem;
+    padding-block-end: 1.75rem;
 }
 
 .checks {
