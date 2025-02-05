@@ -112,7 +112,7 @@ body {
 .input-container input::placeholder {
     font-size: 1rem;
     color: black;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 .email-error-message {
@@ -128,7 +128,7 @@ body {
     background-color: var(--dark-slate-grey);
     color: white;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
