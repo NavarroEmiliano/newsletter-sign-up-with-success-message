@@ -70,7 +70,7 @@ body {
 .checks {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 .checks .list-item {
@@ -129,7 +129,6 @@ body {
     color: white;
     font-weight: 700;
     font-size: 1rem;
-    letter-spacing: 0.20px;
     cursor: pointer;
 }
 
